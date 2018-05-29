@@ -17,33 +17,119 @@
 		00B9955A1B128DF400A5C623 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995581B128DF400A5C623 /* IOKit.framework */; };
 		00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995591B128DF400A5C623 /* IOSurface.framework */; };
 		014C8760981C4C68AA9CD304 /* basicApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C600C03F8F03401880433840 /* basicApp.cpp */; };
-		3D56F6E020B8AAA400B6A7BC /* libOpenNI2.jni.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56F6CE20B8AAA400B6A7BC /* libOpenNI2.jni.dylib */; };
 		3D56F6E120B8AAA400B6A7BC /* libPSLink.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56F6D120B8AAA400B6A7BC /* libPSLink.dylib */; };
 		3D56F6E220B8AAA400B6A7BC /* libOniFile.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56F6D220B8AAA400B6A7BC /* libOniFile.dylib */; };
-		3D56F6E320B8AAA400B6A7BC /* libfreenect2-openni2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56F6D320B8AAA400B6A7BC /* libfreenect2-openni2.dylib */; };
-		3D56F6E420B8AAA400B6A7BC /* libfreenect2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56F6D420B8AAA400B6A7BC /* libfreenect2.dylib */; };
 		3D56F6E620B8AAA400B6A7BC /* PS1080.ini in Resources */ = {isa = PBXBuildFile; fileRef = 3D56F6D620B8AAA400B6A7BC /* PS1080.ini */; };
-		3D56F6E720B8AAA400B6A7BC /* libfreenect2.0.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56F6D720B8AAA400B6A7BC /* libfreenect2.0.2.dylib */; };
-		3D56F6E820B8AAA400B6A7BC /* libfreenect2.0.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56F6D820B8AAA400B6A7BC /* libfreenect2.0.2.0.dylib */; };
 		3D56F6E920B8AAA400B6A7BC /* PSLink.ini in Resources */ = {isa = PBXBuildFile; fileRef = 3D56F6D920B8AAA400B6A7BC /* PSLink.ini */; };
-		3D56F6EA20B8AAA400B6A7BC /* libfreenect2-openni2 2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56F6DA20B8AAA400B6A7BC /* libfreenect2-openni2 2.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
 		3D56F6EB20B8AAA400B6A7BC /* libPS1080.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56F6DB20B8AAA400B6A7BC /* libPS1080.dylib */; };
-		3D56F6EC20B8AAA400B6A7BC /* libfreenect2-openni2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56F6DC20B8AAA400B6A7BC /* libfreenect2-openni2.0.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
 		3D56F6ED20B8AAA400B6A7BC /* libOpenNI2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56F6DD20B8AAA400B6A7BC /* libOpenNI2.dylib */; };
 		3D56F6EE20B8AAA400B6A7BC /* OpenNI.ini in Resources */ = {isa = PBXBuildFile; fileRef = 3D56F6DE20B8AAA400B6A7BC /* OpenNI.ini */; };
 		3D56F6EF20B8AAA400B6A7BC /* org.openni.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D56F6DF20B8AAA400B6A7BC /* org.openni.jar */; };
+		3D771C3E20BD11D4008FD70A /* NiTE.ini in Copy Files */ = {isa = PBXBuildFile; fileRef = 3D8AB41E20BCD76700240BEC /* NiTE.ini */; };
+		3D771C3F20BD11DC008FD70A /* libOpenNI2.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 3D56F6DD20B8AAA400B6A7BC /* libOpenNI2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3D771C4020BD11E7008FD70A /* org.openni.jar in Copy Files */ = {isa = PBXBuildFile; fileRef = 3D56F6DF20B8AAA400B6A7BC /* org.openni.jar */; };
+		3D771C4120BD11F0008FD70A /* OpenNI.ini in Copy Files */ = {isa = PBXBuildFile; fileRef = 3D56F6DE20B8AAA400B6A7BC /* OpenNI.ini */; };
+		3D771C4220BD11FA008FD70A /* libOpenNI2.jni.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 3D56F6CE20B8AAA400B6A7BC /* libOpenNI2.jni.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3D771C4320BD1206008FD70A /* com.primesense.nite.jar in Copy Files */ = {isa = PBXBuildFile; fileRef = 3D8AB41D20BCD76700240BEC /* com.primesense.nite.jar */; };
+		3D771C4420BD1206008FD70A /* libNiTE2.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 3D8AB41C20BCD76700240BEC /* libNiTE2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3D771C4520BD1206008FD70A /* libNiTE2.jni.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 3D8AB41B20BCD76700240BEC /* libNiTE2.jni.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3D771C4720BD1237008FD70A /* libPSLink.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D56F6D120B8AAA400B6A7BC /* libPSLink.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3D771C4820BD1237008FD70A /* libOniFile.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D56F6D220B8AAA400B6A7BC /* libOniFile.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3D771C4920BD1237008FD70A /* libfreenect2-openni2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D56F6D320B8AAA400B6A7BC /* libfreenect2-openni2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3D771C4A20BD1237008FD70A /* libfreenect2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D56F6D420B8AAA400B6A7BC /* libfreenect2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3D771C4B20BD1237008FD70A /* PS1080.ini in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D56F6D620B8AAA400B6A7BC /* PS1080.ini */; };
+		3D771C4C20BD1237008FD70A /* libfreenect2.0.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D56F6D720B8AAA400B6A7BC /* libfreenect2.0.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3D771C4D20BD1237008FD70A /* libfreenect2.0.2.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D56F6D820B8AAA400B6A7BC /* libfreenect2.0.2.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3D771C4E20BD1237008FD70A /* PSLink.ini in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D56F6D920B8AAA400B6A7BC /* PSLink.ini */; };
+		3D771C4F20BD1237008FD70A /* libfreenect2-openni2 2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D56F6DA20B8AAA400B6A7BC /* libfreenect2-openni2 2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3D771C5020BD1237008FD70A /* libPS1080.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D56F6DB20B8AAA400B6A7BC /* libPS1080.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3D771C5120BD1237008FD70A /* libfreenect2-openni2.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D56F6DC20B8AAA400B6A7BC /* libfreenect2-openni2.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3D771C5320BD1263008FD70A /* FeatureExtraction.ini in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D8AB41220BCD76700240BEC /* FeatureExtraction.ini */; };
+		3D771C5420BD1263008FD70A /* h.dat in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D8AB41320BCD76700240BEC /* h.dat */; };
+		3D771C5520BD1263008FD70A /* s.dat in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D8AB41420BCD76700240BEC /* s.dat */; };
+		3D771C5620BD1263008FD70A /* HandAlgorithms.ini in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D8AB41A20BCD76700240BEC /* HandAlgorithms.ini */; };
+		3D771C5820BD1285008FD70A /* lbsdata.lbd in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D8AB41620BCD76700240BEC /* lbsdata.lbd */; };
+		3D771C5920BD1285008FD70A /* lbsdata.idx in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D8AB41720BCD76700240BEC /* lbsdata.idx */; };
+		3D771C5A20BD1285008FD70A /* lbsparam2.lbd in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D8AB41820BCD76700240BEC /* lbsparam2.lbd */; };
+		3D771C5B20BD1285008FD70A /* lbsparam1.lbd in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3D8AB41920BCD76700240BEC /* lbsparam1.lbd */; };
+		3D8AB41F20BCD76700240BEC /* FeatureExtraction.ini in Resources */ = {isa = PBXBuildFile; fileRef = 3D8AB41220BCD76700240BEC /* FeatureExtraction.ini */; };
+		3D8AB42020BCD76700240BEC /* h.dat in Resources */ = {isa = PBXBuildFile; fileRef = 3D8AB41320BCD76700240BEC /* h.dat */; };
+		3D8AB42120BCD76700240BEC /* s.dat in Resources */ = {isa = PBXBuildFile; fileRef = 3D8AB41420BCD76700240BEC /* s.dat */; };
+		3D8AB42220BCD76700240BEC /* lbsdata.lbd in Resources */ = {isa = PBXBuildFile; fileRef = 3D8AB41620BCD76700240BEC /* lbsdata.lbd */; };
+		3D8AB42320BCD76700240BEC /* lbsdata.idx in Resources */ = {isa = PBXBuildFile; fileRef = 3D8AB41720BCD76700240BEC /* lbsdata.idx */; };
+		3D8AB42420BCD76700240BEC /* lbsparam2.lbd in Resources */ = {isa = PBXBuildFile; fileRef = 3D8AB41820BCD76700240BEC /* lbsparam2.lbd */; };
+		3D8AB42520BCD76700240BEC /* lbsparam1.lbd in Resources */ = {isa = PBXBuildFile; fileRef = 3D8AB41920BCD76700240BEC /* lbsparam1.lbd */; };
+		3D8AB42620BCD76700240BEC /* HandAlgorithms.ini in Resources */ = {isa = PBXBuildFile; fileRef = 3D8AB41A20BCD76700240BEC /* HandAlgorithms.ini */; };
+		3D8AB42820BCD76700240BEC /* libNiTE2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8AB41C20BCD76700240BEC /* libNiTE2.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		3D8AB42920BCD76700240BEC /* com.primesense.nite.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8AB41D20BCD76700240BEC /* com.primesense.nite.jar */; settings = {ATTRIBUTES = (Required, ); }; };
+		3D8AB42A20BCD76700240BEC /* NiTE.ini in Resources */ = {isa = PBXBuildFile; fileRef = 3D8AB41E20BCD76700240BEC /* NiTE.ini */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5D367650EA1E45C3B01F67B4 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 73E57F1C33904A3D9954522A /* CinderApp.icns */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3D57A87320B9E21300694B67 /* CopyFiles */ = {
+		3D771C3020BD1146008FD70A /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
+			buildActionMask = 2147483647;
 			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				3D771C4320BD1206008FD70A /* com.primesense.nite.jar in Copy Files */,
+				3D771C4420BD1206008FD70A /* libNiTE2.dylib in Copy Files */,
+				3D771C4520BD1206008FD70A /* libNiTE2.jni.dylib in Copy Files */,
+				3D771C4220BD11FA008FD70A /* libOpenNI2.jni.dylib in Copy Files */,
+				3D771C4120BD11F0008FD70A /* OpenNI.ini in Copy Files */,
+				3D771C4020BD11E7008FD70A /* org.openni.jar in Copy Files */,
+				3D771C3F20BD11DC008FD70A /* libOpenNI2.dylib in Copy Files */,
+				3D771C3E20BD11D4008FD70A /* NiTE.ini in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D771C4620BD121E008FD70A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = OpenNI2/Drivers;
+			dstSubfolderSpec = 6;
+			files = (
+				3D771C4720BD1237008FD70A /* libPSLink.dylib in CopyFiles */,
+				3D771C4820BD1237008FD70A /* libOniFile.dylib in CopyFiles */,
+				3D771C4920BD1237008FD70A /* libfreenect2-openni2.dylib in CopyFiles */,
+				3D771C4A20BD1237008FD70A /* libfreenect2.dylib in CopyFiles */,
+				3D771C4B20BD1237008FD70A /* PS1080.ini in CopyFiles */,
+				3D771C4C20BD1237008FD70A /* libfreenect2.0.2.dylib in CopyFiles */,
+				3D771C4D20BD1237008FD70A /* libfreenect2.0.2.0.dylib in CopyFiles */,
+				3D771C4E20BD1237008FD70A /* PSLink.ini in CopyFiles */,
+				3D771C4F20BD1237008FD70A /* libfreenect2-openni2 2.dylib in CopyFiles */,
+				3D771C5020BD1237008FD70A /* libPS1080.dylib in CopyFiles */,
+				3D771C5120BD1237008FD70A /* libfreenect2-openni2.0.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D771C5220BD123D008FD70A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = NiTE2;
 			dstSubfolderSpec = 7;
 			files = (
+				3D771C5320BD1263008FD70A /* FeatureExtraction.ini in CopyFiles */,
+				3D771C5420BD1263008FD70A /* h.dat in CopyFiles */,
+				3D771C5520BD1263008FD70A /* s.dat in CopyFiles */,
+				3D771C5620BD1263008FD70A /* HandAlgorithms.ini in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D771C5720BD1271008FD70A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = NiTE2/Data;
+			dstSubfolderSpec = 7;
+			files = (
+				3D771C5820BD1285008FD70A /* lbsdata.lbd in CopyFiles */,
+				3D771C5920BD1285008FD70A /* lbsdata.idx in CopyFiles */,
+				3D771C5A20BD1285008FD70A /* lbsparam2.lbd in CopyFiles */,
+				3D771C5B20BD1285008FD70A /* lbsparam1.lbd in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +177,26 @@
 		3D56F6DD20B8AAA400B6A7BC /* libOpenNI2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenNI2.dylib; path = "../../../../../../../usr/local/Cellar/openni2/2.2.0-debian/lib/ni2/libOpenNI2.dylib"; sourceTree = "<group>"; };
 		3D56F6DE20B8AAA400B6A7BC /* OpenNI.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OpenNI.ini; path = "../../../../../../../usr/local/Cellar/openni2/2.2.0-debian/lib/ni2/OpenNI.ini"; sourceTree = "<group>"; };
 		3D56F6DF20B8AAA400B6A7BC /* org.openni.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; name = org.openni.jar; path = "../../../../../../../usr/local/Cellar/openni2/2.2.0-debian/lib/ni2/org.openni.jar"; sourceTree = "<group>"; };
-		3DE58D8F20B780EE009E3536 /* OniSampleUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OniSampleUtilities.h; sourceTree = "<group>"; };
+		3D771C5D20BD1925008FD70A /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		3D771C5E20BD193D008FD70A /* run.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
+		3D8AB40A20BCD73500240BEC /* NiteEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NiteEnums.h; sourceTree = "<group>"; };
+		3D8AB40B20BCD73500240BEC /* NiteCAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NiteCAPI.h; sourceTree = "<group>"; };
+		3D8AB40C20BCD73600240BEC /* NiTE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NiTE.h; sourceTree = "<group>"; };
+		3D8AB40D20BCD73600240BEC /* NiteVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NiteVersion.h; sourceTree = "<group>"; };
+		3D8AB40E20BCD73600240BEC /* NiteCTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NiteCTypes.h; sourceTree = "<group>"; };
+		3D8AB40F20BCD73600240BEC /* NiteCEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NiteCEnums.h; sourceTree = "<group>"; };
+		3D8AB41220BCD76700240BEC /* FeatureExtraction.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FeatureExtraction.ini; sourceTree = "<group>"; };
+		3D8AB41320BCD76700240BEC /* h.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = h.dat; sourceTree = "<group>"; };
+		3D8AB41420BCD76700240BEC /* s.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = s.dat; sourceTree = "<group>"; };
+		3D8AB41620BCD76700240BEC /* lbsdata.lbd */ = {isa = PBXFileReference; lastKnownFileType = file; path = lbsdata.lbd; sourceTree = "<group>"; };
+		3D8AB41720BCD76700240BEC /* lbsdata.idx */ = {isa = PBXFileReference; lastKnownFileType = file; path = lbsdata.idx; sourceTree = "<group>"; };
+		3D8AB41820BCD76700240BEC /* lbsparam2.lbd */ = {isa = PBXFileReference; lastKnownFileType = file; path = lbsparam2.lbd; sourceTree = "<group>"; };
+		3D8AB41920BCD76700240BEC /* lbsparam1.lbd */ = {isa = PBXFileReference; lastKnownFileType = file; path = lbsparam1.lbd; sourceTree = "<group>"; };
+		3D8AB41A20BCD76700240BEC /* HandAlgorithms.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HandAlgorithms.ini; sourceTree = "<group>"; };
+		3D8AB41B20BCD76700240BEC /* libNiTE2.jni.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libNiTE2.jni.dylib; sourceTree = "<group>"; };
+		3D8AB41C20BCD76700240BEC /* libNiTE2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libNiTE2.dylib; sourceTree = "<group>"; };
+		3D8AB41D20BCD76700240BEC /* com.primesense.nite.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = com.primesense.nite.jar; sourceTree = "<group>"; };
+		3D8AB41E20BCD76700240BEC /* NiTE.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NiTE.ini; sourceTree = "<group>"; };
 		3FD0A3DD603B4457BE4BE313 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		73E57F1C33904A3D9954522A /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
@@ -106,25 +211,20 @@
 			files = (
 				3D56F6EF20B8AAA400B6A7BC /* org.openni.jar in Frameworks */,
 				006D720419952D00008149E2 /* AVFoundation.framework in Frameworks */,
+				3D8AB42920BCD76700240BEC /* com.primesense.nite.jar in Frameworks */,
 				006D720519952D00008149E2 /* CoreMedia.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
-				3D56F6ED20B8AAA400B6A7BC /* libOpenNI2.dylib in Frameworks */,
-				3D56F6EC20B8AAA400B6A7BC /* libfreenect2-openni2.0.dylib in Frameworks */,
 				3D56F6EB20B8AAA400B6A7BC /* libPS1080.dylib in Frameworks */,
 				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
 				3D56F6E220B8AAA400B6A7BC /* libOniFile.dylib in Frameworks */,
 				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
-				3D56F6E320B8AAA400B6A7BC /* libfreenect2-openni2.dylib in Frameworks */,
 				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
-				3D56F6E420B8AAA400B6A7BC /* libfreenect2.dylib in Frameworks */,
-				3D56F6E020B8AAA400B6A7BC /* libOpenNI2.jni.dylib in Frameworks */,
-				3D56F6E820B8AAA400B6A7BC /* libfreenect2.0.2.0.dylib in Frameworks */,
+				3D56F6ED20B8AAA400B6A7BC /* libOpenNI2.dylib in Frameworks */,
 				3D56F6E120B8AAA400B6A7BC /* libPSLink.dylib in Frameworks */,
-				3D56F6E720B8AAA400B6A7BC /* libfreenect2.0.2.dylib in Frameworks */,
+				3D8AB42820BCD76700240BEC /* libNiTE2.dylib in Frameworks */,
 				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
 				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
-				3D56F6EA20B8AAA400B6A7BC /* libfreenect2-openni2 2.dylib in Frameworks */,
 				00B9955A1B128DF400A5C623 /* IOKit.framework in Frameworks */,
 				00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */,
 			);
@@ -144,7 +244,6 @@
 			isa = PBXGroup;
 			children = (
 				C600C03F8F03401880433840 /* basicApp.cpp */,
-				3DE58D8F20B780EE009E3536 /* OniSampleUtilities.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -187,6 +286,8 @@
 		29B97314FDCFA39411CA2CEA /* basic */ = {
 			isa = PBXGroup;
 			children = (
+				3D771C5D20BD1925008FD70A /* build.sh */,
+				3D771C5E20BD193D008FD70A /* run.sh */,
 				3D56F69820B8AA0200B6A7BC /* include */,
 				3D56F69720B8A9FE00B6A7BC /* lib */,
 				01B97315FEAEA392516A2CEA /* Blocks */,
@@ -229,6 +330,7 @@
 		3D56F69720B8A9FE00B6A7BC /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				3D8AB41020BCD75600240BEC /* NiTE */,
 				3D56F6DD20B8AAA400B6A7BC /* libOpenNI2.dylib */,
 				3D56F6CE20B8AAA400B6A7BC /* libOpenNI2.jni.dylib */,
 				3D56F6DE20B8AAA400B6A7BC /* OpenNI.ini */,
@@ -241,6 +343,7 @@
 		3D56F69820B8AA0200B6A7BC /* include */ = {
 			isa = PBXGroup;
 			children = (
+				3D8AB40920BCD71C00240BEC /* NiTE */,
 				3D56F6B220B8AA4C00B6A7BC /* OpenNI2 */,
 			);
 			path = include;
@@ -340,6 +443,54 @@
 			path = Drivers;
 			sourceTree = "<group>";
 		};
+		3D8AB40920BCD71C00240BEC /* NiTE */ = {
+			isa = PBXGroup;
+			children = (
+				3D8AB40C20BCD73600240BEC /* NiTE.h */,
+				3D8AB40B20BCD73500240BEC /* NiteCAPI.h */,
+				3D8AB40F20BCD73600240BEC /* NiteCEnums.h */,
+				3D8AB40E20BCD73600240BEC /* NiteCTypes.h */,
+				3D8AB40A20BCD73500240BEC /* NiteEnums.h */,
+				3D8AB40D20BCD73600240BEC /* NiteVersion.h */,
+			);
+			path = NiTE;
+			sourceTree = "<group>";
+		};
+		3D8AB41020BCD75600240BEC /* NiTE */ = {
+			isa = PBXGroup;
+			children = (
+				3D8AB41D20BCD76700240BEC /* com.primesense.nite.jar */,
+				3D8AB41C20BCD76700240BEC /* libNiTE2.dylib */,
+				3D8AB41B20BCD76700240BEC /* libNiTE2.jni.dylib */,
+				3D8AB41E20BCD76700240BEC /* NiTE.ini */,
+				3D8AB41120BCD76700240BEC /* NiTE2 */,
+			);
+			path = NiTE;
+			sourceTree = "<group>";
+		};
+		3D8AB41120BCD76700240BEC /* NiTE2 */ = {
+			isa = PBXGroup;
+			children = (
+				3D8AB41220BCD76700240BEC /* FeatureExtraction.ini */,
+				3D8AB41320BCD76700240BEC /* h.dat */,
+				3D8AB41420BCD76700240BEC /* s.dat */,
+				3D8AB41520BCD76700240BEC /* Data */,
+				3D8AB41A20BCD76700240BEC /* HandAlgorithms.ini */,
+			);
+			path = NiTE2;
+			sourceTree = "<group>";
+		};
+		3D8AB41520BCD76700240BEC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3D8AB41620BCD76700240BEC /* lbsdata.lbd */,
+				3D8AB41720BCD76700240BEC /* lbsdata.idx */,
+				3D8AB41820BCD76700240BEC /* lbsparam2.lbd */,
+				3D8AB41920BCD76700240BEC /* lbsparam1.lbd */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -350,7 +501,10 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
-				3D57A87320B9E21300694B67 /* CopyFiles */,
+				3D771C3020BD1146008FD70A /* Copy Files */,
+				3D771C4620BD121E008FD70A /* CopyFiles */,
+				3D771C5220BD123D008FD70A /* CopyFiles */,
+				3D771C5720BD1271008FD70A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -393,10 +547,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D8AB42020BCD76700240BEC /* h.dat in Resources */,
+				3D8AB42620BCD76700240BEC /* HandAlgorithms.ini in Resources */,
 				3D56F6E620B8AAA400B6A7BC /* PS1080.ini in Resources */,
+				3D8AB42520BCD76700240BEC /* lbsparam1.lbd in Resources */,
 				3D56F6EE20B8AAA400B6A7BC /* OpenNI.ini in Resources */,
+				3D8AB42420BCD76700240BEC /* lbsparam2.lbd in Resources */,
 				5D367650EA1E45C3B01F67B4 /* CinderApp.icns in Resources */,
 				3D56F6E920B8AAA400B6A7BC /* PSLink.ini in Resources */,
+				3D8AB42320BCD76700240BEC /* lbsdata.idx in Resources */,
+				3D8AB42120BCD76700240BEC /* s.dat in Resources */,
+				3D8AB42220BCD76700240BEC /* lbsdata.lbd in Resources */,
+				3D8AB42A20BCD76700240BEC /* NiTE.ini in Resources */,
+				3D8AB41F20BCD76700240BEC /* FeatureExtraction.ini in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,14 +597,18 @@
 				HEADER_SEARCH_PATHS = (
 					"\"$(CINDER_PATH)/include\"",
 					"$(OPENNI2_INCLUDE)/**",
+					"$(NITE2_INCLUDE)/**",
 				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
 					"$(OPENNI2_REDIST)/**",
 					"$(OPENNI2_REDIST)/OpenNI2/Drivers",
+					"$(NITE2_REDIST)/**",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				NITE2_INCLUDE = /usr/local/include/nite2;
+				NITE2_REDIST = /usr/local/lib/nite2;
 				OPENNI2_INCLUDE = /usr/local/include/ni2;
 				OPENNI2_REDIST = /usr/local/lib/ni2;
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
@@ -475,14 +642,18 @@
 				HEADER_SEARCH_PATHS = (
 					"\"$(CINDER_PATH)/include\"",
 					"$(OPENNI2_INCLUDE)/**",
+					"$(NITE2_INCLUDE)/**",
 				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
 					"$(OPENNI2_REDIST)/**",
 					"$(OPENNI2_REDIST)/OpenNI2/Drivers",
+					"$(NITE2_REDIST)/**",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				NITE2_INCLUDE = /usr/local/include/nite2;
+				NITE2_REDIST = /usr/local/lib/nite2;
 				OPENNI2_INCLUDE = /usr/local/include/ni2;
 				OPENNI2_REDIST = /usr/local/lib/ni2;
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
@@ -505,14 +676,8 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"$(CINDER_PATH)/include\"",
-					"$(OPENNI2_INCLUDE)",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(OPENNI2_REDIST)",
-					"$(OPENNI2_REDIST)/OpenNI2/Drivers",
-				);
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				OPENNI2_INCLUDE = /usr/local/include/ni2;
@@ -531,14 +696,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"$(CINDER_PATH)/include\"",
-					"$(OPENNI2_INCLUDE)",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(OPENNI2_REDIST)",
-					"$(OPENNI2_REDIST)/OpenNI2/Drivers",
-				);
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OPENNI2_INCLUDE = /usr/local/include/ni2;
 				OPENNI2_REDIST = /usr/local/lib/ni2;
